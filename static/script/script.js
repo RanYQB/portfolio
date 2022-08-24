@@ -84,3 +84,10 @@ window.addEventListener('scroll', () =>{
     console.log(navBar.getBoundingClientRect()); 
     console.log(homePage.getBoundingClientRect())
 })  
+
+const myModal = document.getElementById('myModal')
+const myInput = document.getElementById('myInput')
+
+myModal.addEventListener('shown.bs.modal', () => {
+  myModal.setAttribute('tabIndex') = 1;
+})

@@ -150,23 +150,30 @@
                     <div class="title-card-div">
                         <h4>CV en ligne</h4>
                         <span>HTML - CSS - JS - Express JS</span>
-                        <a href="http://cv-rania.herokuapp.com/" target="_blank" class="btn btn-sm">Visiter</a>
-                    </div>
+                        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#cvModal">
+                            Visiter
+                        </button>
+                        </div>
                 </div>
                 <div class="card-div reveal">
                     <div class="picture-card-div rh-card"></div>
                     <div class="title-card-div">
                         <h4>RH Conseil</h4>
                         <span>HTML - CSS - JS - PHP 8 - Symfony 6 (en cours)</span>
-                        <a href="#" class="btn btn-sm">Visiter</a>
+                        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#myModal">
+                            Visiter
+                        </button>
                     </div>
+                    
                 </div>
                 <div class="card-div reveal">
                     <div class="picture-card-div sport-card"></div>
                     <div class="title-card-div">
-                        <h4>API SALLE DE SPORT</h4>
+                        <h4>FITNESS CLUB</h4>
                         <span>HTML - CSS - JS - PHP 8 - Symfony 6 (en cours)</span>
-                        <a href="#" class="btn btn-sm">Visiter</a>
+                        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#fitnessModal">
+                            Visiter
+                        </button>
                     </div>
                 </div>
             </div>
@@ -176,24 +183,25 @@
         <div class="section-div">
             <h3 class="reveal">Contactez-moi</h3>
             <div class="contact-form reveal">
-                <form action="post">
+                <form action="https://formsubmit.co/your@email.com" method="post">
+                    <input type="hidden" name="_subject" value="Contact">
                     <div class="form-group form-div">
                         <label for="input-name"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-person-fill person-icon" viewBox="0 0 16 16">
                             <path d="M3 14s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1H3zm5-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6z"/>
                           </svg> Nom</label>
-                        <input type="text" name="input-name" placeholder="Saisissez votre nom..." class="form-control form-control-lg" id="input-name">
+                        <input type="text" name="input-name" placeholder="Saisissez votre nom..." class="form-control form-control-lg" id="input-name" required>
                     </div>
                     <div class="form-group form-div">
                         <label for="input-email"><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" fill="currentColor" class="bi bi-envelope-fill envelope-icon" viewBox="0 0 16 16">
                             <path d="M.05 3.555A2 2 0 0 1 2 2h12a2 2 0 0 1 1.95 1.555L8 8.414.05 3.555ZM0 4.697v7.104l5.803-3.558L0 4.697ZM6.761 8.83l-6.57 4.027A2 2 0 0 0 2 14h12a2 2 0 0 0 1.808-1.144l-6.57-4.027L8 9.586l-1.239-.757Zm3.436-.586L16 11.801V4.697l-5.803 3.546Z"/>
                           </svg> E-mail</label>
-                        <input type="email" name="input-email" placeholder="Saisissez votre email..." id="input-email" class="form-control form-control-lg">
+                        <input type="email" name="input-email" placeholder="Saisissez votre email..." id="input-email" class="form-control form-control-lg" required>
                     </div>
                     <div class="form-group form-div">
                         <label for="message"><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" fill="currentColor" class="bi bi-chat-left-text-fill chat-icon" viewBox="0 0 16 16">
                             <path d="M0 2a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H4.414a1 1 0 0 0-.707.293L.854 15.146A.5.5 0 0 1 0 14.793V2zm3.5 1a.5.5 0 0 0 0 1h9a.5.5 0 0 0 0-1h-9zm0 2.5a.5.5 0 0 0 0 1h9a.5.5 0 0 0 0-1h-9zm0 2.5a.5.5 0 0 0 0 1h5a.5.5 0 0 0 0-1h-5z"/>
                           </svg> Message</label>
-                        <textarea type="textarea" name="message" placeholder="Saisissez votre message..." id="message" rows="3" class="form-control form-control-lg"></textarea>
+                        <textarea type="textarea" name="message" placeholder="Saisissez votre message..." id="message" rows="3" class="form-control form-control-lg" required></textarea>
                     </div>
                     <div class="d-grid gap-2 col-5 mx-auto">
                         <button type="submit" class="btn btn-md send-btn" >Envoyer</button>
@@ -213,10 +221,7 @@
                     <path d="M.05 3.555A2 2 0 0 1 2 2h12a2 2 0 0 1 1.95 1.555L8 8.414.05 3.555ZM0 4.697v7.104l5.803-3.558L0 4.697ZM6.761 8.83l-6.57 4.027A2 2 0 0 0 2 14h12a2 2 0 0 0 1.808-1.144l-6.57-4.027L8 9.586l-1.239-.757Zm3.436-.586L16 11.801V4.697l-5.803 3.546Z"/>
                   </svg></a>
             </div>
-            <div class="footer-titles-container">
-                <p>Rania Yaqoubi &#169; 2022</p>
-                <p>Tous droits réservés</p>
-            </div>
+    
         </div>
     </footer>
     <div class="loader-container">
@@ -241,4 +246,85 @@
         }):
     </script>
 </body>
+<div class="modal fade" id="myModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class=" modal-dialog modal-dialog-centered modal-dialog-scrollable">
+        <div class="modal-content">
+            <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">RH CONSEIL</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+            <h5>technologies</h5>
+            <p>PHP 8 - SYMFONY 6 - MySQL - HTML - CSS - JavaScript - Webpack Encore</p>
+            <h5>Projet </h5>
+            <p>Création d'un site de recrutement</p>
+            <h5>Fonctionnalités</h5>
+            <ul>
+                <li>Authenfication et création de comptes</li>
+                <li>Création de profils recruteurs / candidats</li>
+                <li>Moteur de recherche d'offres d'emploi</li>
+                <li>Téléchargement de CV et candidatures en ligne</li>
+                <li>Publication de nouvelles offres d'emploi</li>
+            </ul>
+            </div>
+            <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fermer</button>
+            <button type="button" class="btn btn-primary">Visiter</button>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="modal fade" id="cvModal" tabindex="-1" aria-labelledby="cvModalLabel" aria-hidden="true">
+    <div class=" modal-dialog modal-dialog-centered modal-dialog-scrollable">
+        <div class="modal-content">
+            <div class="modal-header">
+            <h5 class="modal-title" id="cvModalLabel">CV EN LIGNE</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <h5>technologies</h5>
+                <p>HTML - CSS - JavaScript - Express JS</p>
+                <h5>Projet </h5>
+                <p>Création de mon premier site Internet, mon CV en ligne.</p>
+                <h5>Fonctionnalités</h5>
+                <p>Consulter les différentes pages du site grâce à AJAX, sans rechargement de la page.</p>
+            </div>
+            <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fermer</button>
+            <button type="button" class="btn btn-primary">Visiter</button>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="modal fade" id="fitnessModal" tabindex="-1" aria-labelledby="fitnessModalLabel" aria-hidden="true">
+    <div class=" modal-dialog modal-dialog-centered modal-dialog-scrollable">
+        <div class="modal-content">
+            <div class="modal-header">
+            <h5 class="modal-title" id="fitnessModalLabel">FITNESS CLUB</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <h5>technologies</h5>
+                <p>PHP 8 - SYMFONY 6 - MySQL - HTML - CSS - JavaScript - Webpack Encore</p>
+                <h5>Projet </h5>
+                <p>Création d'un outil de gestion des franchisés d'une marque de salles de sport "Fitness Club"</p>
+                <h5>Fonctionnalités</h5>
+                <ul>
+                    <li>Authenfication et création de comptes</li>
+                    <li>Création de profils partenaires / structures</li>
+                    <li>Vérification des comptes par mail</li>
+                    <li>Réinitialisation des mots de passe avec JWT</li>
+                    <li>Moteur de recherche des partenaires en AJAX avec filtres</li>
+                    <li>Modifications des permissions des franchises</li>
+                    <li>Envoi de confirmations par mail grâce à l'API SendGrid</li>
+                    <li>Désactivation et Activation des comptes</li>
+                </ul>
+            </div>
+            <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fermer</button>
+            <button type="button" class="btn btn-primary">Visiter</button>
+            </div>
+        </div>
+    </div>
+</div>
 </html>
