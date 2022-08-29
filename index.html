@@ -204,36 +204,43 @@
                 <p>Voici  quelques réalisations que j'ai effectuées durant ma formation.</p>
             </div>
             <div class="cards-container">
-                <div class="card-div reveal">
+                <div class="card-div overlay-container reveal">
                     <div class="picture-card-div cv-card">
                     </div>
-                    <div class="title-card-div">
-                        <h4>CV en ligne</h4>
-                        <span>HTML - CSS - JS - Express JS</span>
+                    <div class="title-card-div overlay">
+                        <h4>CV EN LIGNE</h4>
+                        
                         <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#cvModal">
-                            Visiter
+                            Voir la fiche
                         </button>
                         </div>
                 </div>
-                <div class="card-div reveal">
-                    <div class="picture-card-div rh-card"></div>
-                    <div class="title-card-div">
-                        <h4>RH Conseil</h4>
-                        <span>HTML - CSS - JS - PHP 8 - Symfony 6 (en cours)</span>
-                        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#myModal">
-                            Visiter
+                <div class="card-div overlay-container reveal">
+                    <div class="picture-card-div sport-card"></div>
+                    <div class="title-card-div overlay">
+                        <h4>FITNESS CLUB</h4>
+                        
+                        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#fitnessModal">
+                            Voir la fiche
                         </button>
                     </div>
-                    
                 </div>
-                <div class="card-div reveal">
-                    <div class="picture-card-div sport-card"></div>
-                    <div class="title-card-div">
-                        <h4>FITNESS CLUB</h4>
-                        <span>HTML - CSS - JS - PHP 8 - Symfony 6 (en cours)</span>
-                        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#fitnessModal">
-                            Visiter
+                <div class="card-div overlay-container reveal">
+                    <div class="picture-card-div rh-card"></div>
+                    <div class="title-card-div overlay">
+                        <h4>RH CONSEIL (en cours)</h4>
+                        
+                        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#myModal">
+                            Voir la fiche
                         </button>
+                    </div>
+                </div>
+                <div class="card-div overlay-container reveal">
+                    <div class="picture-card-div pf-card"></div>
+                    <div class="title-card-div overlay">
+                        <h4>PORTFOLIO</h4>
+                        
+                        <p>Site sur lequel vous êtes actuellement</p>
                     </div>
                 </div>
             </div>
@@ -291,20 +298,6 @@
     </div>
     <script src="assets/bootstrap/js/bootstrap.min.js"></script>
     <script type="text/JavaScript" src="script/script.js"></script>
-    <script type="text/JavaScript">
-        $(function(){
-        $("body").click(function(e){
-            if(e.target.getAttribute("class") === "navbar-collapse" || (e.target).parents(".navbar-collapse").length>0){
-
-            }
-            else {
-                if($(".navbar-collapse").hasClass("in") == true){
-                    $(".navbar-toggler")[0].click();
-                }
-            }
-        });
-        }):
-    </script>
 </body>
 <div class="modal fade" id="myModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
     <div class=" modal-dialog modal-dialog-centered modal-dialog-scrollable">
@@ -329,7 +322,7 @@
             </div>
             <div class="modal-footer">
             <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fermer</button>
-            <button type="button" class="btn btn-success visit-btn">Visiter</button>
+            <a href="#" class="btn btn-success visit-btn">Visiter</a>
             </div>
         </div>
     </div>
@@ -351,7 +344,7 @@
             </div>
             <div class="modal-footer">
             <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fermer</button>
-            <button type="button" class="btn btn-success visit-btn">Visiter</button>
+            <a href="https://cv-rania.herokuapp.com/" target="_blank" class="btn btn-success visit-btn">Visiter</a>
             </div>
         </div>
     </div>
@@ -382,7 +375,7 @@
             </div>
             <div class="modal-footer">
             <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fermer</button>
-            <button type="button" class="btn btn-success visit-btn">Visiter</button>
+            <a href="https://ecf-fitnessclub.fr/" target="_blank" class="btn btn-success visit-btn">Visiter</a>
             </div>
         </div>
     </div>
