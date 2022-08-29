@@ -429,11 +429,20 @@ form{
     justify-content: center;
     margin-bottom: 1.6rem;
     border: solid 1px lightgray;
-    width: 70vw;
-    height: 25vh;
+    width: 100%;
+    height: 25%;
+    padding: 2rem 0;
+
+    .front-title{
+        color: #9b59b6;
+    }
+
+    .back-title{
+        color: #2ecc71;
+    }
 
     h5{
-        color: #1E2252;
+        
         font-size: 1.7rem;
 
         svg{
@@ -442,26 +451,31 @@ form{
         }
     }
 
-    div{
+    .skill-elements{
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
         align-items: center;
         justify-content: center;
+        width: 100%;
+        margin-top: 1.5rem;
 
-
-        span{
-            padding: 0.5rem 1rem;
-            margin: 0.5rem;
-            background-color:  #4D57D1;
-            border: solid 1px #363D91;
-            border-radius: 5px;
-            color: white;
-
-            &:hover{
-                background-color: #363D91;
+        .skill-el{
+            display: flex;
+            flex-direction: column;
+            align-items:flex-start;
+            justify-content: center;
+            margin-bottom: 0.5rem;
+            
+            span{
+                margin: 0.5rem;
+                color: gray;
+                font-weight: 600;
+                margin-left: 0;
             }
+
         }
+
     }
 
     &:hover{
@@ -469,95 +483,96 @@ form{
     }
 }
 
-@media Screen and (max-width:992px) {
-    
-    body{
-        background-position-y: top;
-    }
-    .contact-form{
-        width: 80vw;
-    }
-
-    .presentation-p{
-        width: 90vw;
-    }
-
-    .cards-container{
-        flex-direction: column;
-    }
-
-    .titles-container{
-        p{
-            text-align: center;
-        }
-    }
-
-    .card-div{
-        width: 75vw;
-        max-width: 458px;
-    }
-
-    .picture-card-div{
-        max-width: inherit;
-        height: 60%;
-        
-    }
-
-    .accueil-content{
-
-        h1{
-            font-size: 1.8rem;
-            margin-bottom: 5rem;
-        }
-
-        p{
-            font-size: 1.8rem;
-
-            span{
-                font-size: 1.8rem;
-            }
-        }
-
-    }
-
-    .presentation-p{
-        flex-direction: column;
-        width: 80vw;
-
-
-        .profil-picture{
-            width: 250px;
-            
-        }
-
-        .profil-description{
-            width: 80vw;
-            margin-top: 2rem;
-        }
-    }
-
-    .skill-titles{
-        span{
-            text-align: center;
-        }
-    }
-
-    .technical-skill{
-        min-height: 40vh;
-        width: 80vw;
-        padding: 1rem;
-    }
-
-    .languages-div{
-        flex-direction: column;
-    }
-
-    .language-div{
-        width: 50vw;
-        height: 30vh;
-        margin-bottom: 0;
-    }
+.progress-bar{
+    background-color: lightgray;
+    height: 15px;
+    width: 100%;
 }
+
+.html-fill{
+    width: 90%;
+    height: 100%;
+    background-color: #9b59b6;
+    margin-bottom: 0;
+}
+
+.css-fill{
+    width: 80%;
+    height: 100%;
+    background-color: #9b59b6;
+    margin-bottom: 0;
+}
+
+.js-fill{
+    width: 70%;
+    height: 100%;
+    background-color: #9b59b6;
+    margin-bottom: 0;
+}
+
+.react-fill{
+    width: 60%;
+    height: 100%;
+    background-color: #9b59b6;
+    margin-bottom: 0;
+}
+
+.express-fill{
+    width: 70%;
+    height: 100%;
+    background-color: #9b59b6;
+    margin-bottom: 0;
+}
+
+.node-fill{
+    width: 80%;
+    height: 100%;
+    background-color: #9b59b6;
+    margin-bottom: 0;
+}
+
+.bootstrap-fill{
+    width: 80%;
+    height: 100%;
+    background-color: #9b59b6;
+    margin-bottom: 0;
+}
+
+.sass-fill{
+    width: 70%;
+    height: 100%;
+    background-color: #9b59b6;
+    margin-bottom: 0;
+}
+
+.php-fill{
+    width: 80%;
+    height: 100%;
+    background-color: #2ecc71;
+    margin-bottom: 0;
+}
+
+.mysql-fill{
+    width: 80%;
+    height: 100%;
+    background-color: #2ecc71;
+    margin-bottom: 0;
+}
+
+.symfony-fill{
+    width: 80%;
+    height: 100%;
+    background-color: #2ecc71;
+    margin-bottom: 0;
+}
+
+.python-fill{
+    width: 40%;
+    height: 100%;
+    background-color: #2ecc71;
+    margin-bottom: 0;
+}
+
 
 .footer{
     background-color: #1E2022;
@@ -701,4 +716,146 @@ footer{
 .reveal.active{
     transform: translateY(0);
     opacity: 1;
+}
+
+.modal-content{
+    
+    padding: 1rem;
+    background-color: #7c8e9cd7;
+
+    .modal-header{
+        border-bottom: solid 1px #8c9ba6;
+    }
+
+    .modal-footer{
+        border-top: solid 1px #8c9ba6;
+    }
+
+
+    .modal-body{
+        background-color:#647582b6;
+       
+
+        p{
+            color:#e2e6e9;
+            font-weight: 400;
+        
+        }
+        h5{
+            color: #e2e6e9;
+            font-size:1.4rem;
+            
+        }
+
+        ul{
+            li{
+                color:#e2e6e9;
+            }
+        }
+    }
+}
+
+.modal-title{
+    font-size: 2rem;
+    color:white;
+    font-style: italic;
+}
+
+.visit-btn{
+    background-color: #2ecc71;
+}
+
+
+@media Screen and (max-width:992px) {
+    
+    body{
+        background-position-y: top;
+    }
+    .contact-form{
+        width: 80vw;
+    }
+
+    .presentation-p{
+        width: 90vw;
+    }
+
+    .cards-container{
+        flex-direction: column;
+    }
+
+    .titles-container{
+        p{
+            text-align: center;
+        }
+    }
+
+    .card-div{
+        width: 75vw;
+        max-width: 458px;
+    }
+
+    .picture-card-div{
+        max-width: inherit;
+        height: 60%;
+        
+    }
+
+    .accueil-content{
+
+        h1{
+            font-size: 1.8rem;
+            margin-bottom: 5rem;
+        }
+
+        p{
+            font-size: 1.8rem;
+
+            span{
+                font-size: 1.8rem;
+            }
+        }
+
+    }
+
+    .presentation-p{
+        flex-direction: column;
+        width: 80vw;
+
+
+        .profil-picture{
+            width: 250px;
+            
+        }
+
+        .profil-description{
+            width: 80vw;
+            margin-top: 2rem;
+        }
+    }
+
+    .skill-titles{
+        span{
+            text-align: center;
+        }
+    }
+
+    .technical-skill{
+        min-height: 40%;
+        width: 100%;
+        padding: 1rem;
+    }
+
+    .languages-div{
+        flex-direction: column;
+    }
+
+    .language-div{
+        width: 50vw;
+        height: 30vh;
+        margin-bottom: 0;
+    }
+
+    .section-div{
+        padding: 3rem 1rem;
+    }
 }
