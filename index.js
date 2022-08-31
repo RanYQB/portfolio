@@ -1,6 +1,6 @@
 
 const express = require('express');
-const favicon = require('serve-favicon');
+//const favicon = require('serve-favicon');
 
 
 const app = express(); 
@@ -14,7 +14,7 @@ app.get('/', async(req, res) =>{
     res.send(indexHTML);
 })
 
-app.use(favicon(__dirname + '/pictures/favicon.ico'));
+// app.use(favicon(__dirname + '/pictures/favicon.ico'));
 app.use(express.static(__dirname + "/static"));
 
 app.listen(process.env.PORT || 3000)
