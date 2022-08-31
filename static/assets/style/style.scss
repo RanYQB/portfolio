@@ -107,7 +107,8 @@ p{
 .profil-picture{
     width: 250px;
     height: 293px;
-    background-color: #4b6584;
+    background-image:  url('../pictures/profile.jpg');
+    background-size: cover;
 }
 
 .profil-description{
@@ -924,6 +925,13 @@ footer{
         height: 150px;
 
     }
+
+    .title-card-div h4 {
+        font-size: 1.2rem;
+        font-weight: 500;
+        margin-bottom: 1.6rem;
+        color: white;
+      }
 
     .accueil-content{
 
