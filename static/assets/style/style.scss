@@ -126,7 +126,7 @@ form{
     display: flex;
     justify-content: space-between;
     background-color: #52616bc4;
-    border-bottom: solid 1px  #4b6584;
+    border-bottom: solid 1px  #333c42;
     z-index: 10;
 
 }
@@ -378,10 +378,10 @@ form{
 }
 
 .language-div{
-    width: 18vw;
-    height: 20vh;
+    width: 20vw;
+    height: 65px;
     border: solid 1px lightgray;
-    margin: 2rem;
+    margin: 1rem;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -909,6 +909,13 @@ footer{
             margin-bottom: 5rem;
         }
 
+        p{
+            font-size: 1.6rem;
+
+            span{
+                font-size: 1.6rem;
+            }
+        }
     
     }
 

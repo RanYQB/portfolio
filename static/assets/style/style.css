@@ -127,7 +127,7 @@ form div textarea::placeholder {
   display: flex;
   justify-content: space-between;
   background-color: rgba(82, 97, 107, 0.768627451);
-  border-bottom: solid 1px #4b6584;
+  border-bottom: solid 1px #333c42;
   z-index: 10;
 }
 
@@ -339,10 +339,10 @@ form div textarea::placeholder {
 }
 
 .language-div {
-  width: 18vw;
-  height: 20vh;
+  width: 20vw;
+  height: 65px;
   border: solid 1px lightgray;
-  margin: 2rem;
+  margin: 1rem;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -797,5 +797,11 @@ footer {
   .accueil-content h1 {
     font-size: 1.5rem;
     margin-bottom: 5rem;
+  }
+  .accueil-content p {
+    font-size: 1.6rem;
+  }
+  .accueil-content p span {
+    font-size: 1.6rem;
   }
 }/*# sourceMappingURL=style.css.map */
