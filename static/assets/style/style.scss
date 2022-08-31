@@ -40,6 +40,7 @@ body{
     height: 100%;
     z-index: -10;
     background: url('../pictures/bg.jpg') no-repeat center center;
+    background-attachment: fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
