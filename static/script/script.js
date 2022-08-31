@@ -85,3 +85,12 @@ window.addEventListener('scroll', () =>{
     console.log(homePage.getBoundingClientRect())
 })  
 
+const navLinks = document.querySelectorAll('.nav-link'); 
+
+navLinks.forEach(navLink => {
+    const burger = document.querySelector('.navbar-toggler');
+
+    navLink.addEventListener('click', ()=>{
+        burger.click();
+    })
+}); 

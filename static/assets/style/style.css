@@ -199,15 +199,14 @@ form div textarea::placeholder {
 }
 
 .card-div {
-  height: 45vh;
-  width: 36vw;
+  height: 220px;
+  width: 400px;
   border: solid 1px lightgray;
-  box-shadow: 0 0 10px 2px lightgray;
+  box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px;
   margin: 2rem;
   padding: 0;
 }
 .card-div:hover {
-  box-shadow: 0 0 10px 3px rgb(199, 198, 198);
   transform: scale(1.03);
   transition: transform 200ms;
 }
@@ -738,12 +737,12 @@ footer {
     text-align: center;
   }
   .card-div {
-    width: 75vw;
-    max-width: 458px;
+    width: 350px;
+    height: 192.5px;
   }
   .picture-card-div {
     max-width: inherit;
-    height: 60%;
+    height: 100%;
   }
   .accueil-content h1 {
     font-size: 1.8rem;
