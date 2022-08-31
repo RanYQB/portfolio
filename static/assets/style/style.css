@@ -10,7 +10,9 @@ section {
 body {
   overflow-x: hidden;
   box-sizing: border-box;
-  background: url("../pictures/bg.jpg");
+  left: 0;
+  right: 0;
+  background-image: url("../pictures/bg.jpg");
   background-size: cover;
   background-position-y: 40%;
   background-repeat: no-repeat;
