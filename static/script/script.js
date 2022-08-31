@@ -20,14 +20,17 @@ function fadeout() {
         if(fade.style.opacity == 0){
             fade.style.display = 'none';
         }
-}
 
+    }
+
+    
 let mainTitle = document.getElementById('main-title'); 
 const text = 'Développeuse Web Junior'
 let i=0;
 let currentPhrase = []; 
 
 function typeTitle(){
+
     mainTitle.innerHTML = currentPhrase.join('');
 
     if(i<text.length){
@@ -40,7 +43,8 @@ function typeTitle(){
     setTimeout(typeTitle, 100); 
 }
 
-typeTitle();
+document.addEventListener('DOMContentLoaded', typeTitle());
+
 
 const ratio = 0.2
 const options = {
