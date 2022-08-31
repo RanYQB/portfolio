@@ -814,8 +814,8 @@ footer{
     }
 
     .card-div{
-        width: 310px;
-        height: 170.5px;
+        width: 350px;
+        height: 192.5px;
 
     }
 
@@ -824,6 +824,8 @@ footer{
         height: 100%;
         
     }
+
+    
 
     .accueil-content{
 
@@ -883,4 +885,20 @@ footer{
     .section-div{
         padding: 3rem 1rem;
     }
+}
+
+
+@media Screen and (max-width:576px) {
+
+    .accueil-section-div{
+        background-size: cover;
+        background: url('../pictures/fond-sm.jpg');
+    }
+
+    .card-div{
+        width: 272.8px;
+        height: 150px;
+
+    }
+
 }
