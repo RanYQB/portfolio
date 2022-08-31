@@ -97,7 +97,7 @@ h3 {
   text-transform: uppercase;
   font-weight: 500;
   font-size: 2rem;
-  margin-bottom: 1.5rem;
+  margin: 2rem 0;
 }
 
 form div {
@@ -780,7 +780,7 @@ footer {
   }
   .language-div {
     width: 50vw;
-    height: 30vh;
+    height: 65px;
     margin-bottom: 0;
   }
   .section-div {
@@ -805,5 +805,8 @@ footer {
   }
   .accueil-content p span {
     font-size: 1.6rem;
+  }
+  .skills {
+    margin: 2rem 0;
   }
 }/*# sourceMappingURL=style.css.map */
