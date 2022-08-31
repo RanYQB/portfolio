@@ -779,6 +779,7 @@ footer {
   .presentation-p .profil-description {
     width: 80vw;
     margin-top: 2rem;
+    color: #282b2e;
   }
   .skill-titles span {
     text-align: center;
