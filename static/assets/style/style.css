@@ -787,8 +787,8 @@ footer {
 }
 @media Screen and (max-width: 576px) {
   .accueil-section-div {
+    background-image: url("../pictures/fond-sm.jpg");
     background-size: cover;
-    background: url("../pictures/fond-sm.jpg");
   }
   .card-div {
     width: 272.8px;
