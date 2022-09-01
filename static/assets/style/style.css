@@ -143,7 +143,7 @@ form div textarea::placeholder {
   width: 100vw;
   display: flex;
   justify-content: space-between;
-  background-color: rgba(82, 97, 107, 0.768627451);
+  background-color: rgba(84, 102, 129, 0.87);
   border-bottom: solid 1px #333c42;
   z-index: 10;
 }
@@ -680,7 +680,7 @@ footer {
 
 .modal-content {
   padding: 1rem;
-  background-color: rgba(124, 142, 156, 0.8431372549);
+  background-color: rgba(84, 102, 129, 0.932);
 }
 .modal-content .modal-header {
   border-bottom: solid 1px #8c9ba6;
@@ -689,7 +689,7 @@ footer {
   border-top: solid 1px #8c9ba6;
 }
 .modal-content .modal-body {
-  background-color: rgba(100, 117, 130, 0.7137254902);
+  background-color: rgba(70, 85, 109, 0.932);
 }
 .modal-content .modal-body p {
   color: #e2e6e9;

@@ -151,7 +151,7 @@ form{
     width: 100vw;
     display: flex;
     justify-content: space-between;
-    background-color: #52616bc4;
+    background-color: rgba(84, 102, 129, 0.87) /*#52616bc4*/;
     border-bottom: solid 1px  #333c42;
     z-index: 10;
 
@@ -744,7 +744,7 @@ footer{
 .modal-content{
     
     padding: 1rem;
-    background-color: #7c8e9cd7;
+    background-color: rgba(84, 102, 129, 0.932)  /* #7c8e9cd7 */;
 
     .modal-header{
         border-bottom: solid 1px #8c9ba6;
@@ -756,7 +756,7 @@ footer{
 
 
     .modal-body{
-        background-color:#647582b6;
+        background-color:  rgba(70, 85, 109, 0.932)  /*#647582b6*/;
        
 
         p{
