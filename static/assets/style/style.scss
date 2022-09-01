@@ -507,93 +507,71 @@ form{
 }
 
 .progress-bar{
-    background-color: lightgray;
-    height: 15px;
+    background-color: rgb(235, 233, 233);
+    height: 12px;
     width: 100%;
+    border-radius: 5px;
 }
 
 .html-fill{
     width: 90%;
-    height: 100%;
     background-color: #9b59b6;
-    margin-bottom: 0;
 }
 
 .css-fill{
     width: 80%;
-    height: 100%;
     background-color: #9b59b6;
-    margin-bottom: 0;
 }
 
 .js-fill{
     width: 70%;
-    height: 100%;
     background-color: #9b59b6;
-    margin-bottom: 0;
 }
 
 .react-fill{
-    width: 60%;
-    height: 100%;
+    width: 50%;
     background-color: #9b59b6;
-    margin-bottom: 0;
 }
 
 .express-fill{
-    width: 70%;
-    height: 100%;
+    width: 60%;
     background-color: #2ecc71;
-    margin-bottom: 0;
 }
 
 .node-fill{
-    width: 80%;
-    height: 100%;
+    width: 70%;
     background-color: #2ecc71;
-    margin-bottom: 0;
 }
 
 .bootstrap-fill{
-    width: 80%;
-    height: 100%;
+    width: 70%;
     background-color: #9b59b6;
-    margin-bottom: 0;
 }
 
 .sass-fill{
     width: 70%;
-    height: 100%;
     background-color: #9b59b6;
-    margin-bottom: 0;
+    
 }
 
 .php-fill{
     width: 80%;
-    height: 100%;
     background-color: #2ecc71;
-    margin-bottom: 0;
 }
 
 .mysql-fill{
-    width: 80%;
-    height: 100%;
+    width: 70%;
     background-color: #2ecc71;
-    margin-bottom: 0;
 }
 
 .symfony-fill{
     width: 80%;
-    height: 100%;
     background-color: #2ecc71;
-    margin-bottom: 0;
 }
 
 .python-fill{
     width: 40%;
-    height: 100%;
     background-color: #2ecc71;
-    margin-bottom: 0;
 }
 
 
@@ -740,6 +718,178 @@ footer{
     transform: translateY(0);
     opacity: 1;
 }
+
+.progress-reveal{
+    height: 100%;
+    margin-bottom: 0;
+    border-radius: 5px;
+
+   
+}
+
+.html-fill.progress-reveal.active{
+    animation:  Html 1.5s ease;
+}
+
+.css-fill.progress-reveal.active{
+    animation:  Css 1.5s ease;
+}
+.js-fill.progress-reveal.active{
+    animation:  Js 1.5s ease;
+}
+.react-fill.progress-reveal.active{
+    animation:  React 1.5s ease;
+}
+.express-fill.progress-reveal.active{
+    animation:  Express 1.5s ease;
+}
+.node-fill.progress-reveal.active{
+    animation:  Node 1.5s ease;
+}
+.bootstrap-fill.progress-reveal.active{
+    animation:  Bootstrap 1.5s ease;
+}
+.sass-fill.progress-reveal.active{
+    animation:  Sass 1.5s ease;
+}
+.php-fill.progress-reveal.active{
+    animation:  Php 1.5s ease;
+}
+
+.mysql-fill.progress-reveal.active{
+    animation:  Mysql 1.5s ease;
+}
+.symfony-fill.progress-reveal.active{
+    animation:  Symfony 1.5s ease;
+}
+.python-fill.progress-reveal.active{
+    animation:  Python 1.5s ease;
+}
+
+
+@keyframes Html {
+    from{
+        width: 0%;
+    }
+    to{
+        width: 90%;
+    }
+}
+
+@keyframes Css {
+    from{
+        width: 0%;
+    }
+    to{
+        width: 80%;
+    }
+}
+
+@keyframes Js {
+    from{
+        width: 0%;
+    }
+    to{
+        width: 70%;
+    }
+}
+
+@keyframes React {
+    from{
+        width: 0%;
+    }
+    to{
+        width: 50%;
+    }
+}
+
+@keyframes Express {
+    from{
+        width: 0%;
+    }
+    to{
+        width: 60%;
+    }
+}
+
+@keyframes Node {
+    from{
+        width: 0%;
+    }
+    to{
+        width: 70%;
+    }
+}
+
+@keyframes Bootstrap {
+    from{
+        width: 0%;
+    }
+    to{
+        width: 70%;
+    }
+}
+
+@keyframes Sass {
+    from{
+        width: 0%;
+      
+    }
+    to{
+        width: 70%;
+       
+    }
+}
+
+
+@keyframes Php {
+    from{
+        width: 0%;
+    }
+    to{
+        width: 80%;
+    }
+}
+
+@keyframes Mysql {
+    from{
+        width: 0%;
+    }
+    to{
+        width: 70%;
+    }
+}
+
+@keyframes Symfony {
+    from{
+        width: 0%;
+    }
+    to{
+        width: 80%;
+    }
+}
+
+@keyframes Python {
+    from{
+        width: 0%;
+    }
+    to{
+        width: 40%;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 .modal-content{
     

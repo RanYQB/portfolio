@@ -70,6 +70,25 @@ window.addEventListener('scroll', ()=>{
     
 })
 
+const progressElements = document.querySelectorAll('.progress-reveal'); 
+
+window.addEventListener('scroll', ()=>{
+    const {scrollTop, clientHeight} = document.documentElement; 
+
+    progressElements.forEach(element => {
+
+        const topElementToTopViewport = element.getBoundingClientRect().top; 
+
+        if(scrollTop > (scrollTop + topElementToTopViewport).toFixed() - clientHeight * 0.99){
+        element.classList.add('active');
+    }
+        
+    });
+    
+})
+
+
+
 const navBar = document.querySelector('.navbar-sliding');
 const homePage = document.getElementById('accueil'); 
 
@@ -85,8 +104,7 @@ window.addEventListener('scroll', () =>{
         navBar.classList.remove('fixed')
     }
 
-    console.log(navBar.getBoundingClientRect()); 
-    console.log(homePage.getBoundingClientRect())
+    
 })  
 
 const navLinks = document.querySelectorAll('.nav-link'); 

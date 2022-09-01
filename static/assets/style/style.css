@@ -447,93 +447,70 @@ form div textarea::placeholder {
 }
 
 .progress-bar {
-  background-color: lightgray;
-  height: 15px;
+  background-color: rgb(235, 233, 233);
+  height: 12px;
   width: 100%;
+  border-radius: 5px;
 }
 
 .html-fill {
   width: 90%;
-  height: 100%;
   background-color: #9b59b6;
-  margin-bottom: 0;
 }
 
 .css-fill {
   width: 80%;
-  height: 100%;
   background-color: #9b59b6;
-  margin-bottom: 0;
 }
 
 .js-fill {
   width: 70%;
-  height: 100%;
   background-color: #9b59b6;
-  margin-bottom: 0;
 }
 
 .react-fill {
-  width: 60%;
-  height: 100%;
+  width: 50%;
   background-color: #9b59b6;
-  margin-bottom: 0;
 }
 
 .express-fill {
-  width: 70%;
-  height: 100%;
+  width: 60%;
   background-color: #2ecc71;
-  margin-bottom: 0;
 }
 
 .node-fill {
-  width: 80%;
-  height: 100%;
+  width: 70%;
   background-color: #2ecc71;
-  margin-bottom: 0;
 }
 
 .bootstrap-fill {
-  width: 80%;
-  height: 100%;
+  width: 70%;
   background-color: #9b59b6;
-  margin-bottom: 0;
 }
 
 .sass-fill {
   width: 70%;
-  height: 100%;
   background-color: #9b59b6;
-  margin-bottom: 0;
 }
 
 .php-fill {
   width: 80%;
-  height: 100%;
   background-color: #2ecc71;
-  margin-bottom: 0;
 }
 
 .mysql-fill {
-  width: 80%;
-  height: 100%;
+  width: 70%;
   background-color: #2ecc71;
-  margin-bottom: 0;
 }
 
 .symfony-fill {
   width: 80%;
-  height: 100%;
   background-color: #2ecc71;
-  margin-bottom: 0;
 }
 
 .python-fill {
   width: 40%;
-  height: 100%;
   background-color: #2ecc71;
-  margin-bottom: 0;
 }
 
 .footer {
@@ -678,6 +655,265 @@ footer {
   opacity: 1;
 }
 
+.progress-reveal {
+  height: 100%;
+  margin-bottom: 0;
+  border-radius: 5px;
+}
+
+.html-fill.progress-reveal.active {
+  -webkit-animation: Html 1.5s ease;
+          animation: Html 1.5s ease;
+}
+
+.css-fill.progress-reveal.active {
+  -webkit-animation: Css 1.5s ease;
+          animation: Css 1.5s ease;
+}
+
+.js-fill.progress-reveal.active {
+  -webkit-animation: Js 1.5s ease;
+          animation: Js 1.5s ease;
+}
+
+.react-fill.progress-reveal.active {
+  -webkit-animation: React 1.5s ease;
+          animation: React 1.5s ease;
+}
+
+.express-fill.progress-reveal.active {
+  -webkit-animation: Express 1.5s ease;
+          animation: Express 1.5s ease;
+}
+
+.node-fill.progress-reveal.active {
+  -webkit-animation: Node 1.5s ease;
+          animation: Node 1.5s ease;
+}
+
+.bootstrap-fill.progress-reveal.active {
+  -webkit-animation: Bootstrap 1.5s ease;
+          animation: Bootstrap 1.5s ease;
+}
+
+.sass-fill.progress-reveal.active {
+  -webkit-animation: Sass 1.5s ease;
+          animation: Sass 1.5s ease;
+}
+
+.php-fill.progress-reveal.active {
+  -webkit-animation: Php 1.5s ease;
+          animation: Php 1.5s ease;
+}
+
+.mysql-fill.progress-reveal.active {
+  -webkit-animation: Mysql 1.5s ease;
+          animation: Mysql 1.5s ease;
+}
+
+.symfony-fill.progress-reveal.active {
+  -webkit-animation: Symfony 1.5s ease;
+          animation: Symfony 1.5s ease;
+}
+
+.python-fill.progress-reveal.active {
+  -webkit-animation: Python 1.5s ease;
+          animation: Python 1.5s ease;
+}
+
+@-webkit-keyframes Html {
+  from {
+    width: 0%;
+  }
+  to {
+    width: 90%;
+  }
+}
+
+@keyframes Html {
+  from {
+    width: 0%;
+  }
+  to {
+    width: 90%;
+  }
+}
+@-webkit-keyframes Css {
+  from {
+    width: 0%;
+  }
+  to {
+    width: 80%;
+  }
+}
+@keyframes Css {
+  from {
+    width: 0%;
+  }
+  to {
+    width: 80%;
+  }
+}
+@-webkit-keyframes Js {
+  from {
+    width: 0%;
+  }
+  to {
+    width: 70%;
+  }
+}
+@keyframes Js {
+  from {
+    width: 0%;
+  }
+  to {
+    width: 70%;
+  }
+}
+@-webkit-keyframes React {
+  from {
+    width: 0%;
+  }
+  to {
+    width: 50%;
+  }
+}
+@keyframes React {
+  from {
+    width: 0%;
+  }
+  to {
+    width: 50%;
+  }
+}
+@-webkit-keyframes Express {
+  from {
+    width: 0%;
+  }
+  to {
+    width: 60%;
+  }
+}
+@keyframes Express {
+  from {
+    width: 0%;
+  }
+  to {
+    width: 60%;
+  }
+}
+@-webkit-keyframes Node {
+  from {
+    width: 0%;
+  }
+  to {
+    width: 70%;
+  }
+}
+@keyframes Node {
+  from {
+    width: 0%;
+  }
+  to {
+    width: 70%;
+  }
+}
+@-webkit-keyframes Bootstrap {
+  from {
+    width: 0%;
+  }
+  to {
+    width: 70%;
+  }
+}
+@keyframes Bootstrap {
+  from {
+    width: 0%;
+  }
+  to {
+    width: 70%;
+  }
+}
+@-webkit-keyframes Sass {
+  from {
+    width: 0%;
+  }
+  to {
+    width: 70%;
+  }
+}
+@keyframes Sass {
+  from {
+    width: 0%;
+  }
+  to {
+    width: 70%;
+  }
+}
+@-webkit-keyframes Php {
+  from {
+    width: 0%;
+  }
+  to {
+    width: 80%;
+  }
+}
+@keyframes Php {
+  from {
+    width: 0%;
+  }
+  to {
+    width: 80%;
+  }
+}
+@-webkit-keyframes Mysql {
+  from {
+    width: 0%;
+  }
+  to {
+    width: 70%;
+  }
+}
+@keyframes Mysql {
+  from {
+    width: 0%;
+  }
+  to {
+    width: 70%;
+  }
+}
+@-webkit-keyframes Symfony {
+  from {
+    width: 0%;
+  }
+  to {
+    width: 80%;
+  }
+}
+@keyframes Symfony {
+  from {
+    width: 0%;
+  }
+  to {
+    width: 80%;
+  }
+}
+@-webkit-keyframes Python {
+  from {
+    width: 0%;
+  }
+  to {
+    width: 40%;
+  }
+}
+@keyframes Python {
+  from {
+    width: 0%;
+  }
+  to {
+    width: 40%;
+  }
+}
 .modal-content {
   padding: 1rem;
   background-color: rgba(84, 102, 129, 0.932);
