@@ -79,7 +79,7 @@ window.addEventListener('scroll', ()=>{
 
         const topElementToTopViewport = element.getBoundingClientRect().top; 
 
-        if(scrollTop > (scrollTop + topElementToTopViewport).toFixed() - clientHeight * 0.99){
+        if(scrollTop > (scrollTop + topElementToTopViewport).toFixed() - clientHeight){
         element.classList.add('active');
     }
         

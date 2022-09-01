@@ -10,14 +10,6 @@ section {
 body {
   overflow-x: hidden;
   box-sizing: border-box;
-  /*left: 0;
-  right: 0;
-  background-image: url('../pictures/bg.jpg');
-  background-size: cover;
-  background-position-y: 40%;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  scroll-behavior: smooth;*/
 }
 body:before {
   content: "";
@@ -80,7 +72,7 @@ nav .btn:focus {
 }
 
 p {
-  font-weight: 200;
+  font-weight: 300;
 }
 
 .presentation-p {
@@ -182,7 +174,7 @@ form div textarea::placeholder {
   font-weight: 500;
 }
 .accueil-section-div a:hover {
-  background-color: rgba(77, 88, 209, 0.2470588235);
+  background-color: rgba(84, 102, 129, 0.699);
 }
 
 .accueil-content p {
@@ -250,7 +242,7 @@ form div textarea::placeholder {
 }
 
 .pf-card {
-  background-image: url("../pictures/portfolio.jpg");
+  background-image: url("../pictures/portfolio.png");
   background-position: center;
 }
 

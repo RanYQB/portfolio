@@ -14,18 +14,7 @@ section{
 body{
     overflow-x: hidden;
     box-sizing: border-box;
-    /*left: 0;
-    right: 0;
-    background-image: url('../pictures/bg.jpg');
-    background-size: cover;
-    background-position-y: 40%;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    scroll-behavior: smooth;*/
-
-    
-
-
+   
 
 
 &:before {
@@ -92,7 +81,7 @@ nav{
 }
 
 p{
-    font-weight: 200;
+    font-weight: 300;
 }
 
 .presentation-p{
@@ -192,7 +181,7 @@ form{
         font-weight: 500;
 
         &:hover{
-            background-color: #4d58d13f;
+            background-color: rgba(84, 102, 129, 0.699);;
         }
     }
     
@@ -277,7 +266,7 @@ form{
 }
 
 .pf-card{
-    background-image: url('../pictures/portfolio.jpg');
+    background-image: url('../pictures/portfolio.png');
     background-position: center;
 }
 
