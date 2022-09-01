@@ -651,66 +651,79 @@ footer {
   height: 100%;
   margin-bottom: 0;
   border-radius: 5px;
+  opacity: 0;
 }
 
 .html-fill.progress-reveal.active {
   -webkit-animation: Html 1.5s ease;
           animation: Html 1.5s ease;
+  opacity: 1;
 }
 
 .css-fill.progress-reveal.active {
   -webkit-animation: Css 1.5s ease;
           animation: Css 1.5s ease;
+  opacity: 1;
 }
 
 .js-fill.progress-reveal.active {
   -webkit-animation: Js 1.5s ease;
           animation: Js 1.5s ease;
+  opacity: 1;
 }
 
 .react-fill.progress-reveal.active {
   -webkit-animation: React 1.5s ease;
           animation: React 1.5s ease;
+  opacity: 1;
 }
 
 .express-fill.progress-reveal.active {
   -webkit-animation: Express 1.5s ease;
           animation: Express 1.5s ease;
+  opacity: 1;
 }
 
 .node-fill.progress-reveal.active {
   -webkit-animation: Node 1.5s ease;
           animation: Node 1.5s ease;
+  opacity: 1;
 }
 
 .bootstrap-fill.progress-reveal.active {
   -webkit-animation: Bootstrap 1.5s ease;
           animation: Bootstrap 1.5s ease;
+  opacity: 1;
 }
 
 .sass-fill.progress-reveal.active {
   -webkit-animation: Sass 1.5s ease;
           animation: Sass 1.5s ease;
+  opacity: 1;
 }
 
 .php-fill.progress-reveal.active {
   -webkit-animation: Php 1.5s ease;
           animation: Php 1.5s ease;
+  opacity: 1;
 }
 
 .mysql-fill.progress-reveal.active {
   -webkit-animation: Mysql 1.5s ease;
           animation: Mysql 1.5s ease;
+  opacity: 1;
 }
 
 .symfony-fill.progress-reveal.active {
   -webkit-animation: Symfony 1.5s ease;
           animation: Symfony 1.5s ease;
+  opacity: 1;
 }
 
 .python-fill.progress-reveal.active {
   -webkit-animation: Python 1.5s ease;
           animation: Python 1.5s ease;
+  opacity: 1;
 }
 
 @-webkit-keyframes Html {
