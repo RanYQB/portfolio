@@ -1041,7 +1041,7 @@ footer {
 }
 @media Screen and (max-width: 576px) {
   .accueil-section-div {
-    background-image: url("../pictures/fond-sm.jpg");
+    background-image: url("../pictures/fond-small.jpg");
     background-size: cover;
   }
   .card-div {
